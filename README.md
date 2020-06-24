@@ -1,7 +1,6 @@
 TraceLog for Laravel|Lumen
 ===============
-
-[![Latest Stable Version](http://img.shields.io/github/release/boscowu/laravel-tarcelog.svg)](https://github.com/boscowu/laravel-tracelog.git)
+[![Latest Stable Version](https://img.shields.io/github/v/release/boscowu/laravel-tracelog)](https://github.com/boscowu/laravel-tracelog.git)
 [![Latest License](https://img.shields.io/badge/license-MIT-green)](https://github.com/boscowu/laravel-tracelog/actions)
 [![Latest Php](https://img.shields.io/badge/php-%5E7.2-blue)](https://github.com/boscowu/laravel-tracelog.git)
 

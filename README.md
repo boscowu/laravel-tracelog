@@ -7,24 +7,10 @@ TraceLog for Laravel|Lumen
 基于Laravel和Lumen框架的调试日志组件.
 
 ### 安装
-因组件为私有composer 所以确保在需要接入的项目中composer.json里有以下配置内容
-
-``` json
-"repositories": [
-    { 
-        "type": "composer",
-        "url": "http://composer.shzhanmeng.com/" 
-    } 
-],
-"config": {
-        "secure-http":false
-    },
-```
-
 安装组件:
 
 ```bash
-$ composer require zm/trace-log
+$ composer require boscowu/laravel-tracelog
 ```
 
 #### Laravel
@@ -36,7 +22,7 @@ Laravel 默认自动加载 ``` TraceLogServiceProvider::class ```
 使用 [Lumen](http://lumen.laravel.com), 需要添加 service provider 到 `bootstrap/app.php` 文件里. 
 
 ```php
-$app->register(ZM\TraceLog\TraceLogServiceProvider::class);
+$app->register(boscowu\TraceLog\TraceLogServiceProvider::class);
 ```
 
 ### 配置文件
@@ -45,14 +31,14 @@ $app->register(ZM\TraceLog\TraceLogServiceProvider::class);
 #### Laravel
 在项目根目录下执行以下命令
 ```bash
-php artisan vendor:publish --provider="ZM\TraceLog\TraceLogServiceProvider"
+php artisan vendor:publish --provider="boscowu\TraceLog\TraceLogServiceProvider"
 ```
 
 #### Lumen
 复制config文件至项目的config目录中
 
 ```bash
-cp vendor/zm/trace-log/config/tracelog.php config/tracelog.php
+cp vendor/boscowu/trace-log/config/tracelog.php config/tracelog.php
 ```
 #### 配置说明
 在 ``` tracelog.php ``` 配置文件中配置日志格式名称
@@ -93,7 +79,7 @@ return [
 ```
 ### 中间件（可选）
 
-在Laravel | Lumen中可以添加中间件``` ZM\TraceLog\Middleware\TraceLogMiddleware::class ```
+在Laravel | Lumen中可以添加中间件``` boscowu\TraceLog\Middleware\TraceLogMiddleware::class ```
 可在日志中查找到request直至response的请求返回内容，同时response的header头中有返回``` Trace-id ``` 以便日志可以根据 ``` Trace-id ```  进行查询
 
 ### 日志使用

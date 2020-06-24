@@ -5,7 +5,7 @@ TraceLog for Laravel|Lumen
 [![Latest License](https://img.shields.io/badge/license-MIT-green)](http://wuhuiqing@code.zm.shzhanmeng.com/ZM-Composer/trace-log.git)
 [![Latest Php](https://img.shields.io/badge/php-%5E7.2-blue)](http://wuhuiqing@code.zm.shzhanmeng.com/ZM-Composer/trace-log.git)
 
-展盟科技基于Laravel和Lumen框架的调试日志组件.
+基于Laravel和Lumen框架的调试日志组件.
 
 ### 安装
 因组件为私有composer 所以确保在需要接入的项目中composer.json里有以下配置内容

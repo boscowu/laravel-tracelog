@@ -1,0 +1,30 @@
+{
+    "name": "zm/trace-log",
+    "description": "trace to monolog for laravel",
+    "keywords": ["trace", "log", "php", "laravel", "lumen"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"ZM\\TraceLog\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "bosco",
+            "email": "wuhuiqing@shzhanmeng.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZM\\TraceLog\\TraceLogServiceProvider"
+            ],
+            "aliases": {
+                "TraceLog": "ZM\\TraceLog\\Facades\\TraceLog"
+            }
+        }
+    }
+}

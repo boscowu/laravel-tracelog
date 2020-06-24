@@ -1,5 +1,5 @@
 {
-    "name": "zm/trace-log",
+    "name": "boscowu/laravel-tracelog",
     "description": "trace to monolog for laravel",
     "keywords": ["trace", "log", "php", "laravel", "lumen"],
     "license": "MIT",
@@ -9,21 +9,21 @@
     },
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"ZM\\TraceLog\\": "src/"}
+        "psr-4": {"boscowu\\TraceLog\\": "src/"}
     },
     "authors": [
         {
             "name": "bosco",
-            "email": "wuhuiqing@shzhanmeng.com"
+            "email": "boscowu1028@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "ZM\\TraceLog\\TraceLogServiceProvider"
+                "boscowu\\TraceLog\\TraceLogServiceProvider"
             ],
             "aliases": {
-                "TraceLog": "ZM\\TraceLog\\Facades\\TraceLog"
+                "TraceLog": "boscowu\\TraceLog\\Facades\\TraceLog"
             }
         }
     }

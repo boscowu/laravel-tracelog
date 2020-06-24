@@ -1,6 +1,6 @@
 <?php
 
-namespace ZM\TraceLog;
+namespace boscowu\TraceLog;
 
 use Illuminate\Support\ServiceProvider;
 

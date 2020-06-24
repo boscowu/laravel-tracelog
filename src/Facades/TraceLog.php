@@ -1,6 +1,6 @@
 <?php
 
-namespace ZM\TraceLog\Facades;
+namespace boscowu\TraceLog\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ZM\TraceLog\Middleware;
+namespace boscowu\TraceLog\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use ZM\TraceLog\Facades\TraceLog;
+use boscowu\TraceLog\Facades\TraceLog;
 
 class TraceLogMiddleware
 {

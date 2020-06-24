@@ -1,9 +1,9 @@
 TraceLog for Laravel|Lumen
 ===============
 
-[![Latest Stable Version](https://img.shields.io/badge/release-v1.0.4-blue)](http://wuhuiqing@code.zm.shzhanmeng.com/ZM-Composer/trace-log.git)
-[![Latest License](https://img.shields.io/badge/license-MIT-green)](http://wuhuiqing@code.zm.shzhanmeng.com/ZM-Composer/trace-log.git)
-[![Latest Php](https://img.shields.io/badge/php-%5E7.2-blue)](http://wuhuiqing@code.zm.shzhanmeng.com/ZM-Composer/trace-log.git)
+[![Latest Stable Version](http://img.shields.io/github/release/boscowu/laravel-tarcelog.svg)](https://github.com/boscowu/laravel-tracelog.git)
+[![Latest License](https://img.shields.io/badge/license-MIT-green)](https://github.com/boscowu/laravel-tracelog/actions)
+[![Latest Php](https://img.shields.io/badge/php-%5E7.2-blue)](https://github.com/boscowu/laravel-tracelog.git)
 
 基于Laravel和Lumen框架的调试日志组件.
 
